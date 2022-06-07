@@ -1,0 +1,50 @@
+{
+    "food101": {
+        "path": "/export/share/datasets/vision/image_datasets/food101",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "sun397": {
+        "path": "/export/share/datasets/vision/image_datasets/sun397",
+        "type": "filelist",
+        "train": "train",
+        "test": "test"
+    },
+    "dtd": {
+        "path": "/export/share/datasets/vision/image_datasets/dtd",
+        "type": "imagefolder",
+        "train": "trainval",
+        "test": "test"
+    },
+    "pets": {
+        "path": "/export/share/datasets/vision/image_datasets/pets",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "caltech101": {
+        "path": "/export/share/datasets/vision/image_datasets/caltech101",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "gtsrb": {
+        "path": "/export/share/datasets/vision/image_datasets/gtsrb",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "ucf101_frames": {
+        "path": "/export/share/datasets/vision/image_datasets/ucf101",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "val"
+    },
+    "imagenet": {
+        "path": "/export/share/datasets/vision/imagenet/",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "val"
+    }  
+}
