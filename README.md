@@ -1,5 +1,5 @@
 # Masked Unsupervised Self-training for Zero-shot Image Classification 
-This is the PyTorch code of the [MUST paper](). The repository supports finetuning a CLIP model on unlabeled images from a target domain.
+This is the PyTorch code of the [MUST paper](https://arxiv.org/abs/2206.02967). The repository supports finetuning a CLIP model on unlabeled images from a target domain.
 
 ### Requirements
 * pytorch 1.10.0
@@ -28,3 +28,13 @@ CLIP | 75.5 | 67.4 | 92.9 | 50.6 | 55.4 | 77.0
 MUST | 82.1 | 74.6 | 95.3 | 68.7 | 62.6 | 85.7 
 
 ### Citation
+<pre>
+@misc{li2022masked,
+      title={Masked Unsupervised Self-training for Zero-shot Image Classification}, 
+      author={Junnan Li and Silvio Savarese and Steven C. H. Hoi},
+      year={2022},
+      eprint={2206.02967},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+</pre>
