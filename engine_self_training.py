@@ -86,9 +86,9 @@ def train_one_epoch(model: torch.nn.Module, args, train_config,
                 # global-local feature alignment loss
                 loss_align = torch.mean(loss_align)
 
-                loss = loss_st + loss_fair + loss_mim + train_config['w_align'] * loss_align 
+                loss = loss_st + train_config['w_fair'] * loss_fair + loss_mim + train_config['w_align'] * loss_align 
             else:
-                loss = loss_st + loss_fair
+                loss = loss_st + train_config['w_fair'] * loss_fair
             
         loss_value = loss.item()
         if not math.isfinite(loss_value):
