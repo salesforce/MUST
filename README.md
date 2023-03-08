@@ -29,12 +29,10 @@ MUST | 82.1 | 74.6 | 95.3 | 68.7 | 62.6 | 85.7
 
 ### Citation
 <pre>
-@misc{li2022masked,
-      title={Masked Unsupervised Self-training for Zero-shot Image Classification}, 
+@inproceedings{li2022masked,
+      title={Masked Unsupervised Self-training for Label-Free Image Classification}, 
       author={Junnan Li and Silvio Savarese and Steven C. H. Hoi},
-      year={2022},
-      eprint={2206.02967},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      year={2023},
+      booktitle={ICLR},
 }
 </pre>
